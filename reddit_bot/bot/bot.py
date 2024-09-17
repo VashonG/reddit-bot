@@ -1,6 +1,6 @@
 import praw
 import time
-from bot.config import REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USERNAME, REDDIT_PASSWORD, USER_AGENT
+from reddit_bot.bot.config import REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USERNAME, REDDIT_PASSWORD, USER_AGENT
 
 def create_reddit_instance():
     """Create and authenticate Reddit instance."""

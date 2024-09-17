@@ -1,7 +1,7 @@
 # tests/test_bot.py
 
 import unittest
-from bot.bot import search_and_reply
+from reddit_bot.bot.bot import search_and_reply
 
 class TestRedditBot(unittest.TestCase):
     def test_search_and_reply(self):
